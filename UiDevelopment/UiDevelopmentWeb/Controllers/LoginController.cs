@@ -3,6 +3,7 @@ using UiDevelopmentWeb.Models;
 
 namespace UiDevelopmentWeb.Controllers
 {
+    [Route("[controller]")]
     [ApiController]
     public class LoginController : Controller
     {
